@@ -15,7 +15,7 @@ function ChatGPTContainer(props: Props) {
   const [queryStatus, setQueryStatus] = useState<QueryStatus>()
   const query = useSWRImmutable(
     queryStatus === 'success' ? 'promotion' : undefined,
-    fetchPromotion,
+    // fetchPromotion,
     { shouldRetryOnError: false },
   )
   return (
