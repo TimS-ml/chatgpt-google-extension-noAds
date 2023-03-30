@@ -1,3 +1,12 @@
+# About this project
+Thanks author for this amazing plugin! This mod is for my personal use, remove ads.
+
+1. Clone the repo
+2. Install dependencies with `npm` (`npm init --yes`, then `npm install`)
+3. `npm run build`
+4. Load `build/chromium/` or `build/firefox/` directory to your browser (chrome://extensions -> developer mode on -> Load unpacked)
+
+
 # ChatGPT for Google
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/wong2/chatgpt-google-extension/pre-release-build.yml)
@@ -57,9 +66,3 @@ Disable "Prevent sites from fingerprinting me based on my language preferences" 
 
 Enable "Allow access to search page results" in the extension management page
 
-## Build from source
-
-1. Clone the repo
-2. Install dependencies with `npm`
-3. `npm run build`
-4. Load `build/chromium/` or `build/firefox/` directory to your browser
